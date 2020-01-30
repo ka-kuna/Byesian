@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pymc3 = "*"
+matplotlib = "*"
+seaborn = "*"
+arviz = "*"
+common = "*"
+bayesian-optimization = "*"
+imageio = "*"
+
+[requires]
+python_version = "3.7"
